@@ -110,7 +110,7 @@ def draw_circle():
         current_heading = timmy.heading()
         timmy.setheading(current_heading+10)
         timmy.color(random.choice(list_of_colors))
-        timmy.forward(10)
+        # timmy.forward(10)
         # timmy.left(1)
 
 
